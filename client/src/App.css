@@ -1,11 +1,27 @@
 .taskForm {
   display: flex;
+  gap: 1rem;
   align-items: center;
-  justify-content: center;
+
   flex-direction: column;
 }
 
 .taskStatus {
   display: flex;
   flex-direction: column;
+}
+
+.taskAdd {
+  display: flex;
+  flex-direction: column;
+}
+
+.taskTitle {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.taskInput {
+  padding: 0.5rem;
 }
